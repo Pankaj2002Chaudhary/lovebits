@@ -1,0 +1,244 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:mistyrose;
+}
+nav{
+  background-color: black;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height:55px;
+}
+.logo img{
+  width:85px;
+  height:65px;
+}
+.logo{
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  font-size: 39px;
+  font-weight:bolder;
+  font-style: oblique;
+  color:deeppink;
+}
+.right{
+  display: flex;
+  margin-left: 600px;
+  font-size: 22px;
+}
+.right li a{
+  padding: 36px;
+  font-size: 18px;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+.right li a:hover{
+  background: #ff96ad;
+  color:black;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+.gif{
+    width:90%;
+    height:330px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  height:330px;
+  position: relative;
+  margin: auto;
+}
+.gif1{
+  height:350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.container{
+  min-height:72vh;
+  background-color:black;
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  margin:23px auto;
+  width:90%;
+  border-radius: 22px;
+  padding:34px;
+}
+h1{
+  display: inline;
+  
+  padding-left: 4px;
+  color:deeppink;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.songitem{
+  float:left;
+  width:400px;
+  height:50px;
+  font-weight: bolder;
+  display: flex;
+  background-color: white;
+  color:black;
+  margin:10px 0;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 15px;
+
+}
+.songitem img{
+float: left;
+width:78px;
+margin-left: 8px;
+margin-right: 8px;
+
+}
+.timestamp{
+  margin:10px 0;
+  cursor:pointer;
+}
+.timestamp i{
+  cursor: pointer;
+}
+.panku{
+
+  width:500px;
+  height:850px;
+  margin-left:350px;
+}
+.bottom{
+  position: sticky;
+  height:80px;
+  background-color:black;
+  color:white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.songinfo{
+  display: flex;
+  padding-top: 38px;
+  position:absolute;
+  left: 10vw;
+  color: #ff96ad;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.songinfo img{
+  height:40px;
+  width: 100px;
+  opacity: 4;
+  transition:opacity 1s ease-in;
+}
+.icons{
+  margin-top:14px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myprogressbar{
+  width: 80vw;
+  text-align: center;
+ cursor:pointer;
+  
+}
